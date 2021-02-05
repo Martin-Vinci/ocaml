@@ -20,7 +20,7 @@ let rec take n xs =
   match n, xs with
   | 0, _
   | _, []
-  | [_]->
+  | [_] ->
       []
   | _, (x :: xs as input) ->
      let xs' = take (n - 1) xs in
