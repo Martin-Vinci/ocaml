@@ -55,11 +55,14 @@
                     stdlib__Char
                     stdlib__Complex
                     stdlib__Digest
+                    stdlib__Dynlink
                     stdlib__Either
                     stdlib__Ephemeron
+                    stdlib__Event
                     stdlib__Filename
                     stdlib__Float
                     stdlib__Format
+                    stdlib__Fun
                     stdlib__Gc
                     stdlib__Genlex
                     stdlib__Hashtbl
@@ -86,6 +89,7 @@
                     stdlib__Scanf
                     stdlib__Seq
                     stdlib__Set
+                    stdlib__Spacetime
                     stdlib__Stack
                     ; stdlib__StdLabels
                     stdlib
@@ -94,6 +98,9 @@
                     ; stdlib__StringLabels
                     stdlib__Sys
                     stdlib__Uchar
+                    stdlib__Unit
+                    stdlib__Unix
+                    stdlib__UnixLabels
                     stdlib__Weak
                     ; the rest
                     outcometree topdirs topeval toploop topmain
